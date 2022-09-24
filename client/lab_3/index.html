@@ -1,5 +1,48 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abby Miller's Labs</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- wrapper -->
+      <header class="header"><h1>Abby Miller's Labs for INST377</h1></header>
+      <div class="container">
+        <!-- container -->
+          <div class="left_section box">
+            <!-- left inputs -->
+            <h2>Album Names</h2>
+            <ol class="box">
+              <li>Everybody Else Is Doing It, So Why Can't We? - The Cranberries</li>
+              <li>Dirt - Alice In Chains</li>
+              <li>Collide With The Sky - Pierce The Veil</li>
+              <li>Animal - Kesha</li>
+              <li>The Fame Monster - Lady Gaga</li>
+            </ol>
+          </div>
+          <div class="right_section box"> <!-- right side -->
+            <h2>Image Carousel</h2>
+            <div class="carousel">
+                <button class="prev">prev</button>
+                <div class="slides">
+                    <div class="carousel_item"><img id="slide_1" src='images/favorite 1.jpeg' alt='A picture of a room I like'/></div>
+                    <div class="carousel_item"><img id="slide_2" src='images/favorite 2.jpeg' alt='A picture of an outdoors image'/></div>
+                    <div class="carousel_item"><img id="slide_3" src='images/favorite 3.jpeg' alt='A picture of an image from a movie'/></div>
+                    <div class="carousel_item"><img id="slide_4" src='images/portishead.jpeg' alt='A photo of an album from one of my favorite bands'/></div>
+                </div>
+                <button class="next">next</button>
+            </div>
+            <div class="box">
+              <!-- description box -->
+              These are four different images that I like!
+            </div>
+          </div>
+        </div>
+        <footer class="footer"> My Github account: <a href="http://github.com/abby310m/" target="_blank" rel="noopener noreferrer">abby310m</a></footer>
+    </div>
+    <script src="script.js" ></script>
+  </body>
+</html>
