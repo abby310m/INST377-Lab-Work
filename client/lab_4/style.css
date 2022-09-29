@@ -154,13 +154,13 @@ form {
 .footer {
   flex-shrink: 0;
   padding: 1rem;
-  background-color: rgba(16, 4, 46, 0.8);
+  background-color: rgba(62, 39, 119, 0.8);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .footer a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: underline;
 }
 
@@ -178,7 +178,7 @@ form {
 }
 
 .subtitle {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   margin: 0px;
   margin-bottom: 5px;
 }
